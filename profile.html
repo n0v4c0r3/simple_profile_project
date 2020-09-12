@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- External resources + cdn -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>IT40_pranay_kalita_p1</title>
+</head>
+
+<style>
+    body {
+        font-family: "Montserrat", "Roboto", 'Century Gothic', sans-serif;
+        font-style: normal;
+        margin: 0;
+        padding: 0;
+        background-color: #1F2739;
+
+    }
+
+    .footer {
+        text-align: center;
+        padding: 5px;
+        background-color: black;
+        color: white;
+    }
+
+    .footer a {
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    /* for cover image */
+    .coverimg {
+        position: relative;
+        height: 550px;
+        overflow: hidden;
+        /* background: url("cover5.jpg"); */
+        background: url(https://i.ibb.co/rkt5v21/cover5.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+
+    }
+
+    /* for black overlay on cover image */
+    .coverimg::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, .5)
+    }
+
+
+    .profile {
+        position: relative;
+        padding: 50px;
+        text-align: center;
+        margin-top: -150px;
+        color: white;
+    }
+
+    .profile h1 {
+
+        font-family: "Montserrat";
+        font-weight: 300;
+    }
+
+    .profile h2 {
+
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 10px;
+    }
+
+    /* centering profile image */
+    .profileimg {
+        border-radius: 50%;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        width: 200px;
+        height: 200px;
+        /* profile image */
+        background: url(https://i.ibb.co/yyRWfCw/profile.jpg);
+        background-size: cover;
+    }
+
+
+    .tabledata h2 {
+        text-align: center;
+        text-transform: uppercase;
+        padding: 30px;
+        font-family: Montserrat;
+        font-weight: 400;
+        color: #FB667A;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    td,
+    th {
+
+        color: white;
+        font-weight: 400;
+        text-align: center;
+        padding: 15px;
+        width: 50%;
+    }
+
+    td {
+        color: #FB667A;
+    }
+
+    /* differ color of cells */
+    tr:nth-child(odd) {
+        background-color: #323C50;
+    }
+
+    tr:nth-child(even) {
+        background-color: #2C3446;
+    }
+
+    #add {
+        background-color: rgb(95, 150, 90);
+        font-weight: 300;
+        border-radius: 4%;
+        width: 120px;
+        left: 50%;
+        transform: translateX(-50%);
+        position: relative;
+    }
+</style>
+
+<body>
+    <div class="coverimg">
+
+    </div>
+
+
+    <div class="profile">
+        <div class="profileimg"></div>
+        <h1>Pranay Kalita</h1>
+        <h2>BScIT 5<sup>th</sup> semester</h2>
+        <h2></h2>Roll No: IT-40</h2>
+        <h4 id="add">Address<h4>
+                <h2>A.T Road Tarajan</h2>
+                <h2>Jorhat,Assam</h2>
+
+    </div>
+
+
+    <div class="tabledata">
+        <h2>More about me</h2>
+        <table>
+            <tr>
+                <th>1.</th>
+                <th>1.</th>
+            </tr>
+            <tr>
+                <td>Title</td>
+                <td>Title</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>2.</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>3.</td>
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td>4.</td>
+            </tr>
+            <tr>
+                <td>5.</td>
+                <td>5.</td>
+            </tr>
+
+        </table>
+    </div>
+
+</body>
+
+
+<div class="footer">
+    <p> © Pranay Kalita | 2020 . All Rights Reserved </p>
+    <a href="https://www.facebook.com/pranay.nova" target="_blank"><i class="fa fa-facebook-official"></i></a>
+    <a href="https://www.instagram.com/i__am__nova/" target="_blank"><i class="fa fa-instagram"></i></a>
+    <a href="https://github.com/N0v4c0r3" target="_blank"><i class="fa fa-github"></i></a>
+</div>
+
+</html>
